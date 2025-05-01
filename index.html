@@ -1,107 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ayoub Lafriki - Links</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-        body {
-            background-color: #121212;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-        }
-        main {
-            flex: 1;
-            text-align: center;
-            padding: 50px 20px 20px;
-        }
-        img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        h1 {
-            margin-top: 20px;
-        }
-        .links {
-            margin-top: 30px;
-        }
-        .links a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            margin: 10px auto;
-            padding: 10px 20px;
-            width: 270px;
-            background: rgba(255, 255, 255, 0.1); /* Glassy background */
-            border-radius: 25px;
-            backdrop-filter: blur(10px); /* Apply blur effect */
-            border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for effect */
-            color: white;
-            text-decoration: none;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        .links a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            transform: scale(1.05);
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0e0e0e;
-            border-top: 1px solid #333;
-            font-size: 14px;
-            color: #bbb;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayoub Lafriki | Official Links</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    img.avatar {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #ccc;
+    }
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+    a.link {
+      display: inline-block;
+      padding: 0.75rem 1rem;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    a.link:hover {
+      background: rgba(255,255,255,0.3);
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-    <main>
-        <img src="avatar.png" alt="Ayoub Lafriki Avatar">
-        <h1>Ayoub Lafriki</h1>
-        <p>Connect with me:</p>
-        <div class="links">
-            <a href="https://linkedin.com/in/lafriki"><i class="fab fa-linkedin"></i>LinkedIn</a>
-            <a href="https://x.com/lafriki"><i class="fab fa-x-twitter"></i>X (Twitter)</a>
-            <a href="https://medium.com/@lafriki"><i class="fab fa-medium"></i>Medium</a>
-            <a href="https://goodreads.com/lafriki"><i class="fab fa-goodreads"></i>GoodReads</a>
-            <a href="https://soundcloud.com/lafriki"><i class="fab fa-soundcloud"></i>SoundCloud</a>
-            <a href="https://vimeo.com/lafriki"><i class="fab fa-vimeo"></i>Vimeo</a>
-            <a href="https://codepen.io/lafriki"><i class="fab fa-codepen"></i>CodePen</a>
-            <a href="https://creativemarket.com/lafriki"><i class="fas fa-palette"></i>Creative Market</a>
-            <a href="https://behance.net/lafriki"><i class="fab fa-behance"></i>Behance</a>
-            <a href="https://dribbble.com/lafriki"><i class="fab fa-dribbble"></i>Dribbble</a>
-            <a href="https://getallmylinks.com/lafriki"><i class="fas fa-link"></i>GetAllMyLinks</a>
-            <a href="https://patreon.com/lafriki"><i class="fab fa-patreon"></i>Patreon</a>
-            <a href="https://sites.google.com/view/lafriki"><i class="fas fa-globe"></i>Google Sites</a>
-            <a href="https://strava.com/athletes/lafriki"><i class="fab fa-strava"></i>Strava</a>
-            <a href="https://kick.com/lafriki11"><i class="fas fa-video"></i>Kick</a>
-            <a href="https://twitch.tv/lafriki11"><i class="fab fa-twitch"></i>Twitch</a>
-            <a href="https://github.com/lafriki11"><i class="fab fa-github"></i>GitHub</a>
-            <a href="https://steamcommunity.com/id/lafriki11"><i class="fab fa-steam"></i>Steam</a>
-            <a href="https://www.researchgate.net/profile/Ayoub-Lafriki"><i class="fas fa-graduation-cap"></i>ResearchGate</a>
-            <a href="https://pinterest.com/ayoublafriki"><i class="fab fa-pinterest"></i>Pinterest</a>
-            <a href="https://linktr.ee/ayoublafriki"><i class="fas fa-tree"></i>Linktree</a>
-            <a href="https://ayoublafriki.blogspot.com"><i class="fab fa-blogger"></i>Blogspot</a>
-            <a href="https://pinterest.com/lafrikia"><i class="fab fa-pinterest"></i>Pinterest @Lafrikia</a>
-            <a href="https://instagram.com/lafrikia"><i class="fab fa-instagram"></i>Instagram</a>
-            <a href="https://tiktok.com/@lafrikia"><i class="fab fa-tiktok"></i>TikTok</a>
-            <a href="https://facebook.com/lafrikia"><i class="fab fa-facebook"></i>Facebook</a>
-            <a href="https://youtube.com/@lafrikia"><i class="fab fa-youtube"></i>YouTube</a>
-        </div>
-    </main>
-    <footer>
-        Dreaming big. Running bigger. One stride closer to greatness.
-    </footer>
+  <div class="container">
+    <img src="avatar.png" alt="Ayoub Lafriki Avatar" class="avatar" />
+    <h1>Ayoub Lafriki</h1>
+    <p class="tagline">Endurance runner. Visionary. Creative explorer.</p><div class="link-grid">
+  <a class="link" href="https://www.linkedin.com/in/lafriki">LinkedIn</a>
+  <a class="link" href="https://x.com/lafriki">X (Twitter)</a>
+  <a class="link" href="https://medium.com/@lafriki">Medium</a>
+  <a class="link" href="https://www.goodreads.com/lafriki">GoodReads</a>
+  <a class="link" href="https://soundcloud.com/lafriki">SoundCloud</a>
+  <a class="link" href="https://vimeo.com/lafriki">Vimeo</a>
+  <a class="link" href="https://codepen.io/lafriki">CodePen</a>
+  <a class="link" href="https://creativemarket.com/lafriki">CreativeMarket</a>
+  <a class="link" href="https://www.behance.net/lafriki">Behance</a>
+  <a class="link" href="https://dribbble.com/lafriki">Dribbble</a>
+  <a class="link" href="https://getallmylinks.com/lafriki">GetAllMyLinks</a>
+  <a class="link" href="https://www.patreon.com/lafriki">Patreon</a>
+  <a class="link" href="https://sites.google.com/view/lafriki">Google Sites</a>
+  <a class="link" href="https://www.strava.com/athletes/lafriki">Strava</a>
+  <a class="link" href="https://kick.com/lafriki11">Kick</a>
+  <a class="link" href="https://www.twitch.tv/lafriki11">Twitch</a>
+  <a class="link" href="https://github.com/lafriki11">GitHub</a>
+  <a class="link" href="https://steamcommunity.com/id/lafriki11">Steam</a>
+  <a class="link" href="https://www.researchgate.net/profile/Ayoub-Lafriki">ResearchGate</a>
+  <a class="link" href="https://www.pinterest.com/ayoublafriki">Pinterest (AyoubLafriki)</a>
+  <a class="link" href="https://linktr.ee/ayoublafriki">Linktree</a>
+  <a class="link" href="https://ayoublafriki.blogspot.com">Blogspot</a>
+  <a class="link" href="https://www.pinterest.com/lafrikia">Pinterest (@Lafrikia)</a>
+  <a class="link" href="https://www.instagram.com/lafrikia">Instagram</a>
+  <a class="link" href="https://www.tiktok.com/@lafrikia">TikTok</a>
+  <a class="link" href="https://www.facebook.com/lafrikia">Facebook</a>
+  <a class="link" href="https://www.youtube.com/@lafrikia">YouTube</a>
+</div>
+
+<footer>
+  “Dreaming big. Running bigger. One stride closer to greatness.”
+</footer>
+
+  </div>
 </body>
 </html>
